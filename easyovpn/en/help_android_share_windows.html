@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <h3>Q: How to share OVPN profile to windows and open it with OpenVPN?</h3>
+
+        <p>This instruction describes how to connect to a Public VPN Relay Server of VPN Gate by using OpenVPN Client developed by OpenVPN Technologies, Inc. on Windows XP, 7, 8, Server 2003, 2008, 2012.</p>
+        <p>On this instruction, we use Windows 7 screens. Windows XP and Windows 8 are similar, however there are a little number of differences.</p>
+        
+        <h4>1. Install OpenVPN Client</h4>
+        
+        <p>Download and install <a href="http://openvpn.net/index.php/open-source/downloads.html">OpenVPN for windows</a></p>
+
+        <h4>2. Download an OVPN profile (.ovpn file) from EasyOVPN App</h4>
+        
+        <p><strong>Pre-condition:</strong> Phone and PC are in the same network (connected to the same WiFi AP)</p>
+        <p><strong>Steps: </strong>
+          <p>2.1. Phone side: refresh to show the latest servers</p>
+          <p>2.2. Phone side: start the internal web server, the access address will be: http://xxx.xxx.xxx.xxx:xxx</p>
+          <p>2.3. PC side: input the above access address in PC browser</p>
+          <p>2.4. PC side: download one profile to PC</p>
+        </p>
+        
+        <h4>3. Import the OVPN profile to OpenVPN client</h4>
+
+        <p>Open "C:\Program Files\OpenVPN\config" folder and remove old OVPN profiles.</p>
+        <p>Copy new OVPN profile into the folder.</p>
+        
+        <h4>4. Establish VPN connection</h4>        
+        
+        <p>Right click the "OpenVPN GUI" icon on the desktop, and click "Run as administrator". </p>
+        <p>For WindowsXP or earlier windows version, please double click the "OpenVPN GUI" icon directly.</p>
+        
+        <p>OpenVPN GUI icon will be appeared on the task-tray of Windows at the bottom-right of the screen. (Icon sometimes hides. Click the up arrow icon to show all hidden icons.)</p>
+        <p>Right-click the OpenVPN GUI icon, and click "Connect".</p>
+        <img src="pic/help_systray.jpg">
+        
+        <p>The VPN connection will be started. The connecting status will be displayed on the screen.</p>
+        <p>If you see the username and password prompts on the screen, specify "vpn" (3-letters) on the prompt.</p>
+        <img src="pic/help_openvpn.jpg">
+        
+        <p>If the VPN connection is successfully established, the message appears as following.</p>
+        <img src="pic/help_connected.jpg">
+        
+        <h4>5. If couldn't connect to VPN server, please repeat 2-4</h4>
+        <p>It is better to try the OVPN profile on the phone before share it to PC.</p>
+
+      </section>
+      <footer>
+        <p><small>Copyright @ 2014 Easy4U LTD</p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>

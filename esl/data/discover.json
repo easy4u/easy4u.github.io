@@ -33,6 +33,12 @@
         {"title":"This American Life",
           "rss":"http://feed.thisamericanlife.org/talpodcast",
           "cover_url":"http://www.thisamericanlife.org/sites/all/themes/thislife/images/logo-square-1400.jpg"},
+        {"title":"Serial",
+          "rss":"http://feeds.serialpodcast.org/serialpodcast",
+          "cover_url":"https://serialpodcast.org/sites/all/modules/custom/serial/img/serial-itunes-logo.png"},
+        {"title":"TED Radio Hour",
+          "rss":"https://www.npr.org/rss/podcast.php?id=510298",
+          "cover_url":"https://media.npr.org/assets/img/2015/03/18/ted_sq-3426270a541795b78233a698dd7965d407545cf3.jpg?s=600"},
         {"title":"Voice of America",
           "rss":"https://learningenglish.voanews.com/podcast/?count=20&zoneId=1689",
           "cover_url":"https://gdb.voanews.com/47E37481-CAD6-4AEF-9AD4-74FC8B936E46.jpg"},
@@ -53,10 +59,7 @@
           "cover_url":"https://gdb.voanews.com/05E3880E-D538-4DF1-A825-39817FBBFA2B.jpg"},
         {"title":"American English Pronunciation Podcast",
           "rss":"http://feeds.soundcloud.com/users/soundcloud:users:211495990/sounds.rss",
-          "cover_url":"http://i1.sndcdn.com/avatars-000280282544-emeglg-original.jpg"},
-        {"title":"Trumpet Hour",
-          "rss":"http://feedpress.me/kpcg_trumpet_hour",
-          "cover_url":"http://kpcg.fm/media/W1siZiIsIjIwMTcvMDkvMjYvd3c4bWJwdGh4X1BvZGNhc3RfQ292ZXJfQXJ0X1RIXzAxLnBuZyJdLFsicCIsInRodW1iIiwiMTQwMHgxNDAwIix7ImZvcm1hdCI6InBuZyJ9XV0/4af603517194cd3d/cover.png"}
+          "cover_url":"http://i1.sndcdn.com/avatars-000280282544-emeglg-original.jpg"}
       ]},
     {
       "title":"Australia Learning English",

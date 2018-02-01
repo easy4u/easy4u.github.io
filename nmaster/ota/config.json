@@ -19,7 +19,6 @@
         "com.android.settings",
         "com.android.systemui",
         "com.bbm",
-        "com.facebook.orca",
         "com.flipkart.android",
         "com.google.android.apps.fireball",
         "com.google.android.apps.photos",
@@ -44,6 +43,8 @@
         "com.tencent.pb",
         "com.tencent.qqlite",
         "com.whatsapp",
+        "com.facebook.katana",
+        "com.facebook.orca",
         "com.yahoo.mobile.client.android.mail",
         "jp.naver.line.android",
         "ru.mail.mailapp"
